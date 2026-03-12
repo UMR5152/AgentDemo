@@ -1,0 +1,31 @@
+# 每日论文及业界实践洞察总结Agent依赖
+
+# LangChain & LangGraph
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-openai>=0.0.5
+langgraph>=0.0.20
+
+# 网络请求
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# 配置文件解析
+pyyaml>=6.0.1
+pydantic>=2.5.0
+
+# 邮件
+python-dotenv>=1.0.0
+
+# 任务调度
+schedule>=1.2.0
+
+# arXiv API
+arxiv>=2.0.0
+
+# 日期处理
+python-dateutil>=2.8.2
+
+# 其他
+beautifulsoup4>=4.12.0
+lxml>=4.9.0

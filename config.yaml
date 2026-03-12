@@ -1,0 +1,46 @@
+# 每日论文及业界实践洞察总结Agent配置文件
+
+# 关键词列表 - 用于搜索论文和业界资讯
+keywords:
+  - "large language model"
+  - "agent"
+  - "RAG"
+  - "multimodal"
+  - "LLM optimization"
+
+# 大模型配置
+llm:
+  base_url: "https://api.openai.com/v1"
+  api_key: "your-api-key-here"
+  model_name: "gpt-4o"
+
+# 邮箱配置
+email:
+  # 发件人邮箱（Gmail）
+  sender_email: "your-email@gmail.com"
+  sender_password: "your-app-password"  # Gmail应用专用密码
+
+  # 收件人邮箱列表
+  recipient_emails:
+    - "recipient1@example.com"
+    - "recipient2@example.com"
+
+# SMTP配置（Gmail）
+smtp:
+  host: "smtp.gmail.com"
+  port: 587
+  use_tls: true
+
+# 搜索配置
+search:
+  # 论文搜索数量限制
+  max_papers: 5
+  # 业界资讯数量限制
+  max_news: 5
+  # 搜索时间范围（天）
+  days_back: 1
+
+# 调度配置
+schedule:
+  # 每日执行时间（24小时制，例如 "09:00"）
+  daily_time: "09:00"
